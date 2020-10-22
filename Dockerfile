@@ -14,5 +14,3 @@ RUN gem install bundler
 RUN bundle install
 
 ADD . /railsBase
-RUN rails _6.0.3_ new /railsBase/ --force -d mysql --no-deps --webpacker
-RUN rails webpacker:install
