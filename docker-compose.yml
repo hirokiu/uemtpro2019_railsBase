@@ -20,6 +20,7 @@ services:
     stdin_open: true
     volumes:
       - .:/railsBase
+      - ./uemtpro2019_app/app:/railsBase/app
     ports:
       - "3000:3000"
     depends_on:
