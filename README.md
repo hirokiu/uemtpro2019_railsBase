@@ -5,14 +5,14 @@
 ## Installation
 ### 
 ```
-git clone https://github.com/hirokiu/uemtpro2019_railsBase.git
+git clone git@github.com:hirokiu/uemtpro2019_railsBase.git
 cd uemtpro2019_railsBase
 git checkout withRailsFiles
 ```
 
 ###
 ```
-git clone https://github.com/hirokiu/uemtpro2019_app.git
+git clone git@github.com:hirokiu/uemtpro2019_app.git
 ```
 
 ### create .env file for password
